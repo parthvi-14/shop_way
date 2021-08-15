@@ -1,0 +1,41 @@
+.sorting tr:not(.home){
+  cursor: pointer;
+}
+.ui-state-highlight {
+  border: 1px dashed #ccc;
+}
+#imgPreview{
+  margin: 20px;
+}
+#noimage{
+  width: 100px;
+  height: 100px;
+}
+ul.gallery {
+    padding: 0;
+}
+
+ul.gallery li:first-child {
+    margin-left: 0;
+}
+
+ul.gallery li {
+    margin: 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+table.alignmiddle td {
+    vertical-align: middle !important;
+}
+span{
+  color: #ffe500;
+}
+.navbar-brand{
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  font-size: 25px;
+  color: white;
+}
+.navbar{
+  background-image: linear-gradient(to right, #535EDF, #7C2AE8);
+}
